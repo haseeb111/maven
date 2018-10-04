@@ -1,9 +1,10 @@
 pipeline {
-    agent any
+    agent none
     stages { 
-        stage('Example') {
+        stage('Build'){
+            agent { label 'myagent' }
             steps {
-                echo 'Hello World'
+                sh "nmcli dev status"
             }
         }
     }
