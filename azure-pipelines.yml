@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 pool:
-  vmImage: 'BuildPool'
+  agentpool: 'BuildPool'
 
 steps:
 - task: Maven@3
