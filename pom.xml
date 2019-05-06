@@ -31,7 +31,7 @@
             <scope>test</scope>
         </dependency>
 
-<!-- Blah Blah Blah0000000 ->
+<!-- Blah Blah Blah ->
 	    
         <dependency>
             <groupId>javax</groupId>
